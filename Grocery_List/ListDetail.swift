@@ -12,16 +12,22 @@ struct ListDetail: View {
     
     let section: ListSection
     
+    
     var body: some View {
         
-        VStack(alignment: .leading){
-            Text(section.name).font(.headline)
+        List{
             ForEach(section.items){ item in
-                Text(item.name)
+                NavigationLink(destination: ItemDetail(item: item)){
+
+                    ItemRow(item: item)
+                }
             }
-            
+
         }
+        .navigationTitle("\(section.date) - \(section.name)")
+        .navigationBarTitleDisplayMode(.inline)
     }
+        
         
 }
 

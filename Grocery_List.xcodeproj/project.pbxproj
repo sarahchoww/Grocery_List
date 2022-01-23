@@ -16,6 +16,10 @@
 		85FF57E7279CF82200DD2B4E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FF57E6279CF82200DD2B4E /* Helper.swift */; };
 		85FF57EB279CFE5300DD2B4E /* ListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FF57EA279CFE5300DD2B4E /* ListDetail.swift */; };
 		85FF57ED279D005500DD2B4E /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FF57EC279D005500DD2B4E /* ListRow.swift */; };
+		85FF57EF279DA81C00DD2B4E /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FF57EE279DA81C00DD2B4E /* ItemDetail.swift */; };
+		85FF57F1279DA92E00DD2B4E /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FF57F0279DA92E00DD2B4E /* ItemRow.swift */; };
+		85FF57F3279DB26B00DD2B4E /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FF57F2279DB26B00DD2B4E /* CheckboxView.swift */; };
+		85FF57F5279DBB3700DD2B4E /* CreateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FF57F4279DBB3700DD2B4E /* CreateListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		85FF57E6279CF82200DD2B4E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		85FF57EA279CFE5300DD2B4E /* ListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetail.swift; sourceTree = "<group>"; };
 		85FF57EC279D005500DD2B4E /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		85FF57EE279DA81C00DD2B4E /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		85FF57F0279DA92E00DD2B4E /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		85FF57F2279DB26B00DD2B4E /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		85FF57F4279DBB3700DD2B4E /* CreateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +72,14 @@
 				85FF57E2279CF3E800DD2B4E /* data.json */,
 				85FF57D4279CEA2700DD2B4E /* Grocery_ListApp.swift */,
 				85FF57D6279CEA2700DD2B4E /* ContentView.swift */,
+				85FF57F4279DBB3700DD2B4E /* CreateListView.swift */,
+				85FF57F2279DB26B00DD2B4E /* CheckboxView.swift */,
 				85FF57EC279D005500DD2B4E /* ListRow.swift */,
 				85FF57E4279CF71000DD2B4E /* Data.swift */,
 				85FF57E6279CF82200DD2B4E /* Helper.swift */,
 				85FF57EA279CFE5300DD2B4E /* ListDetail.swift */,
+				85FF57F0279DA92E00DD2B4E /* ItemRow.swift */,
+				85FF57EE279DA81C00DD2B4E /* ItemDetail.swift */,
 				85FF57D8279CEA2900DD2B4E /* Assets.xcassets */,
 				85FF57DA279CEA2900DD2B4E /* Preview Content */,
 			);
@@ -153,12 +165,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85FF57F3279DB26B00DD2B4E /* CheckboxView.swift in Sources */,
+				85FF57EF279DA81C00DD2B4E /* ItemDetail.swift in Sources */,
+				85FF57F5279DBB3700DD2B4E /* CreateListView.swift in Sources */,
 				85FF57D7279CEA2700DD2B4E /* ContentView.swift in Sources */,
 				85FF57E5279CF71000DD2B4E /* Data.swift in Sources */,
 				85FF57ED279D005500DD2B4E /* ListRow.swift in Sources */,
 				85FF57D5279CEA2700DD2B4E /* Grocery_ListApp.swift in Sources */,
 				85FF57EB279CFE5300DD2B4E /* ListDetail.swift in Sources */,
 				85FF57E7279CF82200DD2B4E /* Helper.swift in Sources */,
+				85FF57F1279DA92E00DD2B4E /* ItemRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
