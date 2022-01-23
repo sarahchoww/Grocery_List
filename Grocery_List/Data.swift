@@ -14,7 +14,7 @@ struct ListSection: Codable, Identifiable {
     var items: [ListItem]
     
 #if DEBUG
-    static let example = ListSection(id: "100", name: "List 10", date: "Jan 22 2022", items: [])
+    static let example = ListSection(id: "100", name: "List 10", date: "Jan 22 2022", items: [ListItem.example])
 #endif
 }
 
