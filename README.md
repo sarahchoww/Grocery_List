@@ -2,4 +2,4 @@
 grocery list app
 
 author: Sarah Chow
-Copyright © 2021. All rights reserved
+Copyright © 2022. All rights reserved
